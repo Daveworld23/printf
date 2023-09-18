@@ -28,14 +28,14 @@ struct fmt
 };
 
 /**
- * typedef struct fmt func - Struct for operations
+ * typedef struct fmt fmt_spc - Struct for operations
  * @fmt: The format
  * @func: The associated function
  */
-typedef struct fmt func;
+typedef struct fmt fmt_spc;
 
 int _printf(const char *format, ...);
-int print_all(const char *fmt, int *i, va_list list, char buffer[],
+int print_all(const char *fmt, int *n, va_list list, char buffer[],
 		int flags, int width, int precision, int size);
 int print_char(va_list list, char buffer[], int flags,
 		int width, int precision, int size);
