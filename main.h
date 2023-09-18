@@ -74,9 +74,9 @@ int write_chars(char c, char buffer[], int flags, int width,
 int write_number(int pos, int ind, char buffer[], int flags,
 		int width, int precision, int size);
 int write_nums(int ind, char buff[], int flags,
-		int width, int precision, int len, char pad, char extra);
+		int width, int precision, int len, char padd, char c);
 int write_pointer(char buffer[], int ind, int len, int flags,
-		int width, char pad, char extra, int startpad);
+		int width, char padd, char c, int padd_s);
 int write_unsigned_num(int neg, int ind, char buffer[],
 		int flags, int width, int precision, int size);
 int printable(char);
