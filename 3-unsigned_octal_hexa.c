@@ -121,10 +121,10 @@ int print_hexa(va_list list, char m[], char buffer[], int flags,
 	if (n == 0)
 		buffer[i--] = '0';
 	buffer[BUFF_SIZE - 1] = '\0';
-	while (num > 0)
+	while (n > 0)
 	{
 		buffer[i--] = m[n % 16];
-		num /= 16;
+		n /= 16;
 	}
 	if (flags & FLAG_H && num != 0)
 	{
