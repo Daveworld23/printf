@@ -3,11 +3,11 @@
 /**
  * print_rot13string - Print a string in rot13.
  * @list: List of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @buffer: Buffer to handle print
+ * @flags:  Calculates available flags
  * @width: get width
- * @precision: Precision specification
- * @size: Size specifier
+ * @precision: Specify Precisio
+ * @size: Derive Size
  * Return: Numbers of chars printed
  */
 
