@@ -3,7 +3,7 @@
 /**
  * include_width - Derives the width for printing
  * @format: Formatted string to print the arguments.
- * @i: List of arguments to be printed.
+ * @i: Int values to be printed.
  * @list: list of arguments.
  * Return: width.
  */
