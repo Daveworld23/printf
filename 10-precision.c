@@ -2,10 +2,9 @@
 
 /**
  * include_precision - Derives the precision for printing
- * @format: Formatted string in which to print the arguments
- * @i: List of arguments to be printed.
+ * @format: Formatted string to print the arguments
+ * @i: Variable values to be printed.
  * @list: list of arguments.
- *
  * Return: Precision.
  */
 int include_precision(const char *format, int *i, va_list list)
