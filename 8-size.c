@@ -2,8 +2,8 @@
 
 /**
  * include_size -Calculates size
- * @format: Formatted string in which to print the arguments
- * @i: List of arguments to be printed.
+ * @format: Formatted string to print the arguments
+ * @i:Int values to be printed.
  * Return: Size.
  */
 int include_size(const char *format, int *i)
