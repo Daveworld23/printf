@@ -3,7 +3,7 @@
 /**
  * include_flags - Calculates available flags
  * @format: Formatted string to print the arguments
- * @i: Integer values
+ * @i: values to be printed
  * Return: Flags:
  */
 int include_flags(const char *format, int *i)
