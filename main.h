@@ -79,9 +79,9 @@ int write_pointer(char buffer[], int ind, int len, int flags,
 		int width, char padd, char c, int padd_s);
 int write_unsigned_num(int neg, int ind, char buffer[],
 		int flags, int width, int precision, int size);
-int printable(char);
-int digit(char);
-int append_hexa(char, char[], int);
+int printable(char c);
+int digit(char c);
+int append_hexa(char ascii_code, char buffer[], int i);
 long int convert_unsigned_size(unsigned long int n, int size);
 long int convert_size_num(long int n, int size);
 
