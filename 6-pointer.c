@@ -16,7 +16,7 @@ int print_pointer(va_list list, char buffer[], int flags,
 	char c = 0, padd = ' ';
 	int ind = BUFF_SIZE - 2, len = 2, padd_s = 1;
 	unsigned long n_address;
-	char m[] = "0123456789abcded";
+	char m[] = "0123456789abcdef";
 	void *address = va_arg(list, void *);
 
 	UNUSED(width);
