@@ -41,7 +41,7 @@ int print_string(va_list list, char buffer[], int flags,
 	UNUSED(size);
 	if (str == NULL)
 	{
-		str == "(null)";
+		str = "(null)";
 		if (precision >= 6)
 			str = "     ";
 	}
