@@ -5,7 +5,7 @@
  * @format: Formatted string to print the arguments
  * @i: Variable values to be printed.
  * @list: list of arguments.
- * Return: Precision.
+ * Return: precision.
  */
 int include_precision(const char *format, int *i, va_list list)
 {
