@@ -61,7 +61,7 @@ int digit(char c)
  */
 long int convert_size_num(long int n, int size)
 {
-	if (size == SIZE_S)
+	if (size == SIZE_L)
 		return (n);
 	else if (size == SIZE_S)
 		return ((short)n);
